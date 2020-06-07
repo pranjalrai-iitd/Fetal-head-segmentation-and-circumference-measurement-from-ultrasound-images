@@ -69,4 +69,4 @@ for epoch in range(num_epochs):
     epoch_val_loss = val_loss / (val_size//batch_size+1)
     epoch_val_acc = val_acc / (val_size//batch_size+1)
     scheduler.step(epoch_val_loss) # LR Scheduler
-    print(f"==>train_loss: {epoch_train_loss} ==>val_loss: {epoch_val_loss} ==>val_accuracy: {epoch_val_acc}%")
+    print(f"==>train_loss: {epoch_train_loss} ==>val_loss: {epoch_val_loss} ==>val_accuracy: {epoch_val_acc}")
