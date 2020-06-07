@@ -13,6 +13,8 @@ The summary of the model is as following:
 <img src="Images/model_summary.png" >
 </p>
 
+A model trained for 30 epochs can be found <a href="https://drive.google.com/file/d/1x2eVD-hbtPk5GxOu5NWNzLAyIGa0siKi/view?usp=sharing"> here</a>.
+
 ## Problem Statement
 The problem statement of the <a href="https://hc18.grand-challenge.org/">HC18</a> challenge was to model the head of the fetus as an **ellipse**. The approach employed to aolve this problem was to **segment** the **fetal head** followed by **Hough transform** to fit the ellipse. The **Unet** model was trained to segment the ultrasound images and ellipse fitting was performed using the **OpenCV** implementation of **Hough transforms**.
 The results are as follows:
