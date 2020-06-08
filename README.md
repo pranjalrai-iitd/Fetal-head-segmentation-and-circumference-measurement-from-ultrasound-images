@@ -1,4 +1,4 @@
-# Fetal-head-segmentation-and-circumference-mearurement-from-ultrasound-images
+# Fetal-head-segmentation-and-circumference-measurement-from-ultrasound-images
 This repo is a **PyTorch** implementation of a **U-Net** model for the **segmentation** ultrasound images in order to estimate the circumference of the head of the fetus. The dataset used for the project was taken from the <a href="https://hc18.grand-challenge.org/">HC18</a> challenge.
 
 ## U-Net 
